@@ -1,5 +1,5 @@
 const http = require('http')
-const { type } = require('os')
+
 
 const server = http.createServer((rec , res)=>{
     console.log(`request was made ${rec.url}`)
